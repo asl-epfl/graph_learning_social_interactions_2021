@@ -1,0 +1,15 @@
+# learning curves
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.5 --multistate --states 10
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.5 --multistate --states 10 --change_true_state 3000 --comparison
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.5 --multistate --states 10 --change_true_state 3000
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.5 --multistate --states 10 --perturbe_time 7000
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.5 --multistate --states 10 --perturbe 1000
+
+# paths
+python main.py --likelihood_regime 0 --times 50000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.2 --comparison --multistate --states 10 --path --path_1 2 --seed 3
+python main.py --likelihood_regime 0 --times 50000 --adjacency_regime 6 --combination_regime 3 --agents 18 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.2 --comparison --multistate --states 10 --seed 99  --hop 2
+
+# heatmaps
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.2 --comparison --multistate --states 10 --path_0 8 --seed 6 --hop 1
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.2 --comparison --multistate --states 10 --path_0 8 --seed 6 --hop 2
+python main.py --likelihood_regime 0 --times 20000 --adjacency_regime 3 --agents 30 --er_prob 0.2 --seed 25 --lr 0.1 --step_size 0.1 --likelihood_var 0.2 --comparison --multistate --states 10 --path_0 8 --seed 6 --hop 3
