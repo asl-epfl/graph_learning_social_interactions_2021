@@ -1,10 +1,10 @@
 # graph_learning_social_interactions_2021
 
-### This is the code that corresponds to the simulations performed in two papers:
+### This is the code that corresponds to the simulations performed in two papers
 
-V. Shumovskaia, K. Ntemos, S. Vlaski and A. H. Sayed, "Online Graph Learning from Social Interactions," 2021 55th Asilomar Conference on Signals, Systems, and Computers, 2021, pp. 1263-1267, doi: 10.1109/IEEECONF53345.2021.9723403.
+V. Shumovskaia, K. Ntemos, S. Vlaski and A. H. Sayed, "[Online Graph Learning from Social Interactions](https://asl.epfl.ch/wp-content/uploads/2021/11/asilomar_2021.pdf)," 2021 55th Asilomar Conference on Signals, Systems, and Computers, 2021, pp. 1263-1267, doi: 10.1109/IEEECONF53345.2021.9723403.
 
-V. Shumovskaia, K. Ntemos, S. Vlaski and A. H. Sayed (2022). Explainability and Graph Learning from Social Interactions. arXiv preprint arXiv:2203.07494.
+V. Shumovskaia, K. Ntemos, S. Vlaski and A. H. Sayed (2022). [Explainability and Graph Learning from Social Interactions](https://arxiv.org/abs/2203.07494). arXiv preprint arXiv:2203.07494.
 
 ### Usage
 
@@ -14,4 +14,4 @@ To run experiments, we refer to ```runs_final.txt```, e.g.:
 
 To understand arguments for the parser we refer to ```parser.py``` or run ```python main.py --help```.
 
-**Author: Valentina Shumovskaia.**
+**Author: Valentina Shumovskaia**
